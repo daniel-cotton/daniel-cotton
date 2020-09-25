@@ -3,6 +3,17 @@
   height="300px"
      xmlns="http://www.w3.org/2000/svg">
   <style>
+    @font-face {
+      font-family: 'geomanistregular';
+      src: url('https://daniel-cotton.co.uk/geomanist-regular-webfont.eot');
+      src: url('https://daniel-cotton.co.uk/geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('https://daniel-cotton.co.uk/geomanist-regular-webfont.woff2') format('woff2'),
+          url('https://daniel-cotton.co.uk/geomanist-regular-webfont.woff') format('woff'),
+          url('https://daniel-cotton.co.uk/geomanist-regular-webfont.ttf') format('truetype'),
+          url('https://daniel-cotton.co.uk/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    } 
     
       @keyframes moveBlob {
         0% { transform: scale(1, 1) translate(1vw, -1vh) rotate(0deg); }
@@ -63,7 +74,7 @@
     }
     #intro {
       color: white;
-      width: 400px;
+      width: 600px;
       height: 100%;
       display: flex;
       justify-content: center;
@@ -75,13 +86,14 @@
       text-align: left;
     }
     #intro * {
-      font-family: Helvetica, Arial, sans-serif;
+      font-family: geomanistregular, Helvetica, Arial, sans-serif;
     }
     #intro {
-      font-size: 2em;
+      font-size: 3em;
     }
     h1 {
       margin: 0;
+      font-weight: 800;
     }
     h2 {
       font-size: 0.8em;
