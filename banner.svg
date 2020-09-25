@@ -1,0 +1,123 @@
+<svg viewBox="0 0 1500 500" 
+  width="100%"
+  height="300px"
+     xmlns="http://www.w3.org/2000/svg">
+  <style>
+    
+      @keyframes moveBlob {
+        0% { transform: scale(1, 1) translate(1vw, -1vh) rotate(0deg); }
+3% { transform: scale(1.0891824369516012, 1.0891824369516012) translate(0.718574546450168vw, 9.934801676937246vh) rotate(136.15424529651114deg); }
+6% { transform: scale(1.0891824369516012, 0.8851726642658141) translate(0.718574546450168vw, 27.972542305228014vh) rotate(225.8297057996912deg); }
+9% { transform: scale(1.0891824369516012, 1.0212480201302496) translate(16.760167402416005vw, 26.516160324308046vh) rotate(241.4579088316858deg); }
+12% { transform: scale(1.4502883928072094, 1.359831098560083) translate(26.172953685354493vw, 19.57802566203222vh) rotate(128.8763069528118deg); }
+15% { transform: scale(1.214431046300656, 1.101261469918231) translate(26.172953685354493vw, 5.23703047580481vh) rotate(164.96875537704526deg); }
+18% { transform: scale(1.214431046300656, 1.0685062188226397) translate(34.48326097059306vw, 7.972972342986675vh) rotate(60.65209009710651deg); }
+21% { transform: scale(1.1482534194860174, 1.0102804298708814) translate(24.3537616159492vw, 9.274519726772091vh) rotate(172.5076420102397deg); }
+24% { transform: scale(1.027973895387169, 0.9044535738397077) translate(24.3537616159492vw, 26.273226270556115vh) rotate(115.86255138584399deg); }
+27% { transform: scale(1.0415571543897715, 0.9164046819412096) translate(33.63911425655767vw, 5.062043129886784vh) rotate(67.54634038355402deg); }
+30% { transform: scale(1.0255160048024194, 0.9022910209446786) translate(33.63911425655767vw, 17.953811700699237vh) rotate(-49.025060039096246deg); }
+33% { transform: scale(1.2648273218101944, 1.1047242853211232) translate(33.63911425655767vw, 11.968187817026951vh) rotate(-137.76784425685474deg); }
+36% { transform: scale(1.1302714154337261, 0.9872005926049197) translate(33.63911425655767vw, 22.231899303621894vh) rotate(-244.89976548059045deg); }
+39% { transform: scale(1.2593865567479912, 1.0999722174369946) translate(24.988469086689882vw, 23.44933959368824vh) rotate(-386.31569472086437deg); }
+42% { transform: scale(1.1464895141359692, 1.5254172226161218) translate(24.988469086689882vw, 23.012904530207777vh) rotate(-265.4624787236308deg); }
+45% { transform: scale(1.1464895141359692, 1.1233736551727596) translate(24.988469086689882vw, 28.704448082512105vh) rotate(-247.69103174138547deg); }
+48% { transform: scale(0.9751103302800446, 0.9554498688537492) translate(26.1424748004778vw, 1.3193551850177188vh) rotate(-115.51211146863454deg); }
+52% { transform: scale(0.9751103302800446, 1.0009404953761503) translate(22.288739239259392vw, 20.74666445762722vh) rotate(-262.1038802958783deg); }
+55% { transform: scale(0.9751103302800446, 0.8744033720948344) translate(7.239728281243041vw, 17.86589374481305vh) rotate(-405.37905579377deg); }
+58% { transform: scale(1.1074061607524655, 0.9930360197932225) translate(4.076274103164579vw, 21.462527144226584vh) rotate(-467.1828767942262deg); }
+61% { transform: scale(1.2061561995461976, 1.08158740134913) translate(25.41947695538559vw, 5.5942302986828345vh) rotate(-457.3549000295808deg); }
+64% { transform: scale(0.900962455315284, 0.8079133043665676) translate(25.691460697488232vw, 11.815088011083839vh) rotate(-539.4871845552789deg); }
+67% { transform: scale(0.9864542391578475, 0.8845757104112982) translate(25.691460697488232vw, 16.948470871778127vh) rotate(-606.0982546346502deg); }
+70% { transform: scale(0.9864542391578475, 0.9465657368897985) translate(33.709904767333676vw, 20.82759767379055vh) rotate(-546.5996615548263deg); }
+73% { transform: scale(1.2226504034185006, 1.173211015909329) translate(29.533809762939505vw, 2.927750988813407vh) rotate(-404.0457233701539deg); }
+76% { transform: scale(1.2226504034185006, 1.2726117840870146) translate(34.2922847179861vw, 2.6640120622295216vh) rotate(-510.91617374338995deg); }
+79% { transform: scale(1.2226504034185006, 1.1537411312234422) translate(15.422086829369697vw, 27.27097303124181vh) rotate(-636.9310132914547deg); }
+82% { transform: scale(1.2226504034185006, 1.2874942250907444) translate(31.019318685989127vw, 29.660781704139982vh) rotate(-660.7806976923011deg); }
+85% { transform: scale(1.1184133857311356, 1.1777289496383898) translate(31.64825527380115vw, 4.706926682394455vh) rotate(-703.7269832404513deg); }
+88% { transform: scale(1.0287696515073463, 1.0833309190926192) translate(31.64825527380115vw, 10.58954174207376vh) rotate(-811.015284582355deg); }
+91% { transform: scale(1.1842915040136361, 1.2471009439643361) translate(31.64825527380115vw, 0.8025716866901789vh) rotate(-736.0252449944228deg); }
+94% { transform: scale(1.0865180710695417, 1.1441420524194974) translate(31.64825527380115vw, 1.349868653113837vh) rotate(-620.0993102920924deg); }
+97% { transform: scale(1, 1) translate(1vw, -1vh) rotate(0deg); }
+
+      }
+      .blob {
+        animation: moveBlob 60s ease-in-out infinite;
+      }
+    
+      .blob {
+        animation: moveBlob 60s ease-in-out infinite;
+        width: 50%;
+      }
+    
+    #container {
+      width: 100%;
+      position: relative;
+      height: 100%;
+    }
+    .blob {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      transform-origin: 50% 50%;
+    }
+    #intro {
+      color: white;
+      width: 400px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      z-index: 10;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      text-align: left;
+    }
+    #intro * {
+      font-family: Helvetica, Arial, sans-serif;
+    }
+    #intro {
+      font-size: 2em;
+    }
+    h1 {
+      margin: 0;
+    }
+    h2 {
+      font-size: 0.8em;
+      font-weight: 100;
+    }
+  </style>
+
+  <!-- Common use case: embed HTML text into SVG -->
+  <foreignObject x="20" y="20" width="1500" height="500">
+    <!--
+      In the context of SVG embedded in an HTML document, the XHTML 
+      namespace could be omitted, but it is mandatory in the 
+      context of an SVG document
+    -->
+    <div 
+         id="container"
+         xmlns="http://www.w3.org/1999/xhtml">
+      <div class="blob">
+        <!-- This SVG is from https://codepen.io/Ali_Farooq_/pen/gKOJqx -->
+        <svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+          <!-- This technique is adapted from Monica Dinculescu and DasSurma https://codepen.io/notwaldorf/pen/omXwzw -->
+          <defs>
+            <linearGradient id="sunrise-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color: #d81b60;stop-opacity:1"></stop>
+              <stop offset="100%" style="stop-color: #f4511e;stop-opacity:1"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#sunrise-gradient)" d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"></path>
+        </svg>
+      </div>
+      <section id="intro">
+        <h1>Dan Cotton</h1>
+        <div class="row-two">
+          <h2>Software Engineer</h2>
+        </div>
+      </section>
+    </div>
+  </foreignObject>
+</svg>
