@@ -1,4 +1,4 @@
-![Dan Cotton - Software Engineer](https://raw.githubusercontent.com/daniel-cotton/daniel-cotton/live/banner.svg)
+![Dan Cotton - Emerging Tech Lead](https://raw.githubusercontent.com/daniel-cotton/daniel-cotton/live/banner.svg)
 <!--
 **daniel-cotton/daniel-cotton** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
